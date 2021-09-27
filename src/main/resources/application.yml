@@ -1,0 +1,9 @@
+spring:
+  task:
+    # https://spring.pleiades.io/spring-boot/docs/current/reference/html/application-properties.html
+    execution:
+      thread-name-prefix: prefix
+      pool:
+        core-size: 5
+        queue-capacity: 10
+        max-size: 15
